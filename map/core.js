@@ -18,9 +18,9 @@ function doubleMatrix(array) {
   // your code here
 }
 
-module.exports = {
-  multiplyBy10: multiplyBy10,
-  shiftRight: shiftRight,
-  onlyVowels: onlyVowels,
-  doubleMatrix: doubleMatrix,
-};
+// module.exports = {
+//   multiplyBy10: multiplyBy10,
+//   shiftRight: shiftRight,
+//   onlyVowels: onlyVowels,
+//   doubleMatrix: doubleMatrix,
+// };
