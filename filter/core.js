@@ -1,22 +1,23 @@
-function onlyEven (array) {
-  // your code here
-};
+const numArr = [1, 2, 3, 4, 5, 6];
 
-function onlyOneWord (array) {
-  // your code here
-};
+let evenNumArr = numArr.filter((num) => num % 2 === 0);
+console.log(evenNumArr);
 
-function positiveRowsOnly (array) {
+function onlyOneWord(array) {
   // your code here
-};
+}
 
-function allSameVowels (array) {
+function positiveRowsOnly(array) {
   // your code here
-};
+}
 
-module.exports = {
-  onlyEven: onlyEven,
-  onlyOneWord: onlyOneWord,
-  positiveRowsOnly: positiveRowsOnly,
-  allSameVowels: allSameVowels
-};
+function allSameVowels(array) {
+  // your code here
+}
+
+// module.exports = {
+//   onlyEven: onlyEven,
+//   onlyOneWord: onlyOneWord,
+//   positiveRowsOnly: positiveRowsOnly,
+//   allSameVowels: allSameVowels
+// };
